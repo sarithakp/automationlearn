@@ -2,36 +2,36 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-28T20:09:11Z" name="Default suite" finished-at="2021-01-28T20:09:24Z" duration-ms="12450">
+  <suite started-at="2021-01-29T22:23:24Z" name="Default suite" finished-at="2021-01-29T22:24:32Z" duration-ms="68005">
     <groups>
     </groups>
-    <test started-at="2021-01-28T20:09:11Z" name="Default test" finished-at="2021-01-28T20:09:24Z" duration-ms="12450">
-      <class name="com.amz.qa.test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.amz.qa.test.HomePageTest@6a47b187]" started-at="2021-01-28T15:09:11Z" name="setup" finished-at="2021-01-28T15:09:16Z" duration-ms="4581" status="PASS">
+    <test started-at="2021-01-29T22:23:24Z" name="Default test" finished-at="2021-01-29T22:24:32Z" duration-ms="68005">
+      <class name="com.amz.qa.test.SignInPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amz.qa.test.SignInPageTest@12a94400]" started-at="2021-01-29T17:23:24Z" name="setup" finished-at="2021-01-29T17:23:31Z" duration-ms="7211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="HomePageTitleTest()[pri:0, instance:com.amz.qa.test.HomePageTest@6a47b187]" started-at="2021-01-28T15:09:16Z" name="HomePageTitleTest" finished-at="2021-01-28T15:09:16Z" duration-ms="34" status="PASS">
+        <test-method signature="SigninTest()[pri:0, instance:com.amz.qa.test.SignInPageTest@12a94400]" started-at="2021-01-29T17:23:31Z" name="SigninTest" finished-at="2021-01-29T17:24:25Z" duration-ms="53222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amz.qa.test.HomePageTest@6a47b187]" started-at="2021-01-28T15:09:16Z" name="tearDown" finished-at="2021-01-28T15:09:16Z" duration-ms="718" status="PASS">
+        </test-method> <!-- SigninTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amz.qa.test.SignInPageTest@12a94400]" started-at="2021-01-29T17:24:25Z" name="teardown" finished-at="2021-01-29T17:24:25Z" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.amz.qa.test.HomePageTest@6a47b187]" started-at="2021-01-28T15:09:16Z" name="setup" finished-at="2021-01-28T15:09:19Z" duration-ms="3072" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amz.qa.test.SignInPageTest@12a94400]" started-at="2021-01-29T17:24:25Z" name="setup" finished-at="2021-01-29T17:24:31Z" duration-ms="6146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchItem()[pri:0, instance:com.amz.qa.test.HomePageTest@6a47b187]" started-at="2021-01-28T15:09:19Z" name="searchItem" finished-at="2021-01-28T15:09:23Z" duration-ms="3351" status="PASS">
+        <test-method signature="postSignIn()[pri:0, instance:com.amz.qa.test.SignInPageTest@12a94400]" started-at="2021-01-29T17:24:31Z" name="postSignIn" finished-at="2021-01-29T17:24:32Z" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchItem -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amz.qa.test.HomePageTest@6a47b187]" started-at="2021-01-28T15:09:23Z" name="tearDown" finished-at="2021-01-28T15:09:24Z" duration-ms="673" status="PASS">
+        </test-method> <!-- postSignIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amz.qa.test.SignInPageTest@12a94400]" started-at="2021-01-29T17:24:32Z" name="teardown" finished-at="2021-01-29T17:24:32Z" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.amz.qa.test.HomePageTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.amz.qa.test.SignInPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

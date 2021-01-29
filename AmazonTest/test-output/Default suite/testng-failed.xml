@@ -3,13 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.amz.qa.test.HomePageTest">
+      <class name="com.amz.qa.test.SignInPageTest">
         <methods>
-          <include name="HomePageTitleTest"/>
-          <include name="searchItem"/>
           <include name="setup"/>
+          <include name="SigninTest"/>
         </methods>
-      </class> <!-- com.amz.qa.test.HomePageTest -->
+      </class> <!-- com.amz.qa.test.SignInPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

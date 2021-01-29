@@ -21,7 +21,7 @@ public class TestBase {
 		try {
 			
 			prop= new Properties();
-			FileInputStream ip=new FileInputStream("C:\\Users\\sarit\\eclipse-workspace\\AmazonTest\\src\\main\\java\\com\\amz\\qa\\config\\config.properties");
+			FileInputStream ip=new FileInputStream("C:\\test_automation\\code\\AmazonTest\\src\\main\\java\\com\\amz\\qa\\config\\config.properties");
 			
 			prop.load(ip);
 			

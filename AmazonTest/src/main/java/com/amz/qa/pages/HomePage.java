@@ -17,6 +17,8 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//select[@id='searchDropdownBox']")
 	WebElement searchDropdown;
 	
+	//Method to initialize webelements
+	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
