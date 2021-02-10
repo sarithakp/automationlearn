@@ -2,6 +2,7 @@ package com.amz.qa.pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -47,48 +48,40 @@ public class SignInPage extends TestBase{
 		
 		System.out.println(" credential..."+un+"   "+pwd);
 		Signinlink.click();
-		this.VerifyLabel();
+		Assert.assertTrue(this.VerifyLabel());
 	
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		username.sendKeys(un);
 		ContinueBtn.click();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		this.VerifyChangelink();
-		this.VerifyForgotLink();
+		
+		Assert.assertTrue(this.VerifyChangelink());
+		Assert.assertTrue(this.VerifyForgotLink());
 		
 		password.sendKeys(pwd);
 		SubmitBtn.click();
-		
+				
 		
 		
 	}
 	
-	public void VerifyLabel() {
-		boolean cond=EmailLabel.isDisplayed();
-		if (cond) {
-			System.out.println("Label is Displayed.. Success");
-			
-		}
+	public boolean VerifyLabel() {
+		return EmailLabel.isDisplayed();
+		
 		
 	}
-	public void VerifyChangelink() {
-		boolean cond=ChangeEmailLink.isDisplayed();
-		if(cond) {
-			System.out.println("Change Link is Displayed.. Success");
-		}
+	public boolean VerifyChangelink() {
+		return ChangeEmailLink.isDisplayed();
+	
 	}
 	
-	public void VerifyForgotLink() {
-		boolean cond=ForgotLink.isDisplayed();
-		if (cond) {
-			System.out.println("Forgot Link is Displayed.. Success");
-		}
+	public boolean VerifyForgotLink() {
+		return ForgotLink.isDisplayed();
+		
 	}
-	public void VerifyHelloName() {
-		boolean cond=HelloName.isDisplayed();
-		if (cond) {
-			System.out.println("Hello Name is Displayed.. Success");
-		}
+	public boolean VerifyHelloName() {
+		return HelloName.isDisplayed();
+		
 			
 	}
 
