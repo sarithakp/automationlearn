@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteJcpAmz]" parallel="none">
+  <test name="Sprint1(failed)" parallel="none">
+    <classes>
+      <class name="testSuiteTrial.MultipleWind">
+        <methods>
+          <include name="multiwindowhandle"/>
+        </methods>
+      </class> <!-- testSuiteTrial.MultipleWind -->
+    </classes>
+  </test> <!-- Sprint1(failed) -->
+</suite> <!-- Failed suite [SuiteJcpAmz] -->

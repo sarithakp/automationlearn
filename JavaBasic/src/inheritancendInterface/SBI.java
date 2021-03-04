@@ -20,20 +20,30 @@ package inheritancendInterface;
 public class SBI extends RBI implements Loan{
 	
 
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 		
 		SBI sbi=new SBI();
 		sbi.homeLoan();
 		sbi.Loan();
 		
+		
 		RBI sbi1=new SBI();
 		sbi1.homeLoan();
+		
 		
 		RBI sbi2=new RBI();
 		sbi2.homeLoan();
 		
 		Loan sbiloan=new SBI();
 		sbiloan.Loan();
+		
+		StringBuffer senten=new StringBuffer("adda");
+		StringBuffer a =senten.reverse();
+		System.out.println();
+		if (senten.equals(a)) {
+			System.out.println("Its Palindrome");
+		}
 
 	}
 	public void homeLoan() {
@@ -42,6 +52,16 @@ public class SBI extends RBI implements Loan{
 	@Override
 	public void Loan() {
 		System.out.println("Loan from SBI");
+		
+	}
+	@Override
+	public void get() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void close() {
+		// TODO Auto-generated method stub
 		
 	}
 
