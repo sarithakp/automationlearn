@@ -10,8 +10,7 @@ import org.testng.Assert;
 
 public class ElementsPage extends BaseClass {
 	
-		
-	
+			
 	@FindBy(xpath="//div[@class='element-group1']")
 	WebElement element;
 	
@@ -58,6 +57,7 @@ public class ElementsPage extends BaseClass {
 		element.click();
 		System.out.println("Clicked Elements....");
 		textboxmenubutton.click();
+		System.out.println("kjsdjf");
 		
 	}
 	
