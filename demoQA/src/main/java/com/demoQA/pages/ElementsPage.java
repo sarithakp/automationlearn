@@ -11,7 +11,7 @@ import org.testng.Assert;
 public class ElementsPage extends BaseClass {
 	
 			
-	@FindBy(xpath="//div[@class='element-group1']")
+	@FindBy(xpath="//div[@class='element-group']")
 	WebElement element;
 	
 	@FindBy(xpath="//span[text()='Text Box']")
