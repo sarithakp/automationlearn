@@ -31,7 +31,8 @@ public class ElementsPageTest extends BaseClass {
 	@Test
 	public void fillText() {
 		homepage.getElementsCard();
-		elepage.elementsMenu();
+		elepage.clickElementsMenu();
+		elepage.clickMenuItem("textbox");
 		String fname="";
 		String email="";
 		String addr="";

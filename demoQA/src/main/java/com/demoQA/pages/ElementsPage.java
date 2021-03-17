@@ -17,6 +17,8 @@ public class ElementsPage extends BaseClass {
 	@FindBy(xpath="//span[text()='Text Box']")
 	WebElement textboxmenubutton;
 	
+	@FindBy(xpath="//span[text()='Web Tables']")
+	WebElement webtablebutton;
 	
 	@FindBy(xpath="//input[@id='userName']")
 	WebElement fnameinput;
@@ -51,14 +53,31 @@ public class ElementsPage extends BaseClass {
 	}
 	 
 	
-	public void elementsMenu() {
+	public void clickElementsMenu() {
 		System.out.println("On Elements Page..");
 		
 		element.click();
 		System.out.println("Clicked Elements....");
-		textboxmenubutton.click();
-		System.out.println("kjsdjf");
 		
+		
+		
+	}
+	public void clickMenuItem(String menuItem) {
+		
+		switch(menuItem) {
+		
+		case "textbox":
+			textboxmenubutton.click();
+			System.out.println("Clicked on text box menu Item...");
+			break;
+		case "checkbox":
+			break;
+		case "webtable":
+			webtablebutton.click();
+			System.out.println("Clicked on Webtable Item...");
+			break;
+			
+		}
 	}
 	
 	public void fillTextform(String fname,String email,String addr,String permAddr) {
