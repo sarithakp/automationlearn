@@ -2,4 +2,4 @@ Chromepath=C:\\test-automation\\drivers\\chromedriver.exe
 
 IEpath=
 URL=https://demoqa.com
-excelpath=C:\\test-automation\\code\\demoQA\\TestData\\ElementsData.xlsx
+excelpath=C:\\test-automation\\code2\\demoQA\\TestData\\ElementsData.xlsx

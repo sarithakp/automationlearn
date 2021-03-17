@@ -10,6 +10,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.demoQA.util.Helper;
 
@@ -30,6 +31,8 @@ public class BaseClass {
 	public static void initiation() {
 		
 		System.setProperty("webdriver.chrome.driver",config.getChromepath());
+		
+		//System.setProperty("webdriver.chrome.driver",browser);
 		driver=new ChromeDriver();
 		
 		driver.manage().window().maximize();

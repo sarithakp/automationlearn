@@ -3,15 +3,17 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.demoQA.pages.ElementsPageTest">
+      <class name="com.demoQA.pages.HomePageTest">
         <methods>
-          <include name="endTest"/>
           <include name="setupSuite"/>
-          <include name="teardownMethod"/>
-          <include name="fillText"/>
           <include name="setup"/>
+          <include name="teardownMethod"/>
+          <include name="testElementsClick"/>
+          <include name="teardown"/>
+          <include name="testFrameClick"/>
+          <include name="testFormsClick"/>
         </methods>
-      </class> <!-- com.demoQA.pages.ElementsPageTest -->
+      </class> <!-- com.demoQA.pages.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
