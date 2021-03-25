@@ -1,40 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-15T21:31:42Z" name="Default suite" finished-at="2021-03-15T21:31:47Z" duration-ms="5116">
+  <suite started-at="2021-03-25T20:52:34Z" name="Suite" finished-at="2021-03-25T20:53:11Z" duration-ms="37476">
     <groups>
     </groups>
-    <test started-at="2021-03-15T21:31:42Z" name="Default test" finished-at="2021-03-15T21:31:47Z" duration-ms="5116">
-      <class name="com.demoQA.pages.ElementsWebTableTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@272113c4]" started-at="2021-03-15T17:31:42Z" name="setupSuite" finished-at="2021-03-15T17:31:42Z" duration-ms="367" status="PASS">
+    <test started-at="2021-03-25T20:52:34Z" name="Test" finished-at="2021-03-25T20:53:11Z" duration-ms="37476">
+      <class name="com.demoQA.pages.ElementsCheckBoxTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.demoQA.pages.ElementsCheckBoxTest@673fdbce]" started-at="2021-03-25T16:52:33Z" name="setupSuite" finished-at="2021-03-25T16:52:34Z" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@272113c4]" started-at="2021-03-15T17:31:42Z" name="setup" finished-at="2021-03-15T17:31:46Z" duration-ms="3724" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoQA.pages.ElementsCheckBoxTest@673fdbce]" started-at="2021-03-25T16:52:34Z" name="setup" finished-at="2021-03-25T16:52:42Z" duration-ms="8638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkName()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@272113c4]" started-at="2021-03-15T17:31:46Z" name="checkName" finished-at="2021-03-15T17:31:47Z" duration-ms="747" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoQA.pages.ElementsPageTest@6e535154]" started-at="2021-03-25T16:52:42Z" name="setup" finished-at="2021-03-25T16:52:49Z" duration-ms="7133" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkName -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@272113c4]" started-at="2021-03-15T17:31:47Z" name="teardownMethod" finished-at="2021-03-15T17:31:47Z" duration-ms="0" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@338fc1d8]" started-at="2021-03-25T16:52:49Z" name="setup" finished-at="2021-03-25T16:52:54Z" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:52:54Z" name="setup" finished-at="2021-03-25T16:52:59Z" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckBox()[pri:0, instance:com.demoQA.pages.ElementsCheckBoxTest@673fdbce]" started-at="2021-03-25T16:52:59Z" name="verifyCheckBox" finished-at="2021-03-25T16:53:00Z" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBox -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.ElementsCheckBoxTest@673fdbce]" started-at="2021-03-25T16:53:00Z" name="teardownMethod" finished-at="2021-03-25T16:53:00Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkName status=SUCCESS method=ElementsWebTableTest.checkName()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@272113c4] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCheckBox status=SUCCESS method=ElementsCheckBoxTest.verifyCheckBox()[pri:0, instance:com.demoQA.pages.ElementsCheckBoxTest@673fdbce] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@272113c4]" started-at="2021-03-15T17:31:47Z" name="endTest" finished-at="2021-03-15T17:31:47Z" duration-ms="637" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoQA.pages.ElementsCheckBoxTest@673fdbce]" started-at="2021-03-25T16:53:10Z" name="teardown" finished-at="2021-03-25T16:53:11Z" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.demoQA.pages.ElementsPageTest@6e535154]" started-at="2021-03-25T16:53:11Z" name="endTest" finished-at="2021-03-25T16:53:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@338fc1d8]" started-at="2021-03-25T16:53:11Z" name="endTest" finished-at="2021-03-25T16:53:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:11Z" name="teardown" finished-at="2021-03-25T16:53:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoQA.pages.ElementsCheckBoxTest -->
+      <class name="com.demoQA.pages.ElementsWebTableTest">
+        <test-method signature="checkName()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@338fc1d8]" started-at="2021-03-25T16:53:00Z" name="checkName" finished-at="2021-03-25T16:53:01Z" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkName -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@338fc1d8]" started-at="2021-03-25T16:53:01Z" name="teardownMethod" finished-at="2021-03-25T16:53:01Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkName status=SUCCESS method=ElementsWebTableTest.checkName()[pri:0, instance:com.demoQA.pages.ElementsWebTableTest@338fc1d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
       </class> <!-- com.demoQA.pages.ElementsWebTableTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.demoQA.pages.HomePageTest">
+        <test-method signature="testElementsClick()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:10Z" name="testElementsClick" finished-at="2021-03-25T16:53:10Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementsClick -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:10Z" name="teardownMethod" finished-at="2021-03-25T16:53:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testElementsClick status=SUCCESS method=HomePageTest.testElementsClick()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="testFormsClick()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:10Z" name="testFormsClick" finished-at="2021-03-25T16:53:10Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormsClick -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:10Z" name="teardownMethod" finished-at="2021-03-25T16:53:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFormsClick status=SUCCESS method=HomePageTest.testFormsClick()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="testFrameClick()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:10Z" name="testFrameClick" finished-at="2021-03-25T16:53:10Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrameClick -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec]" started-at="2021-03-25T16:53:10Z" name="teardownMethod" finished-at="2021-03-25T16:53:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFrameClick status=SUCCESS method=HomePageTest.testFrameClick()[pri:0, instance:com.demoQA.pages.HomePageTest@5b38c1ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+      </class> <!-- com.demoQA.pages.HomePageTest -->
+      <class name="com.demoQA.pages.ExtentReportdemo">
+        <test-method signature="TestReport()[pri:0, instance:com.demoQA.pages.ExtentReportdemo@15a34df2]" started-at="2021-03-25T16:53:02Z" name="TestReport" finished-at="2021-03-25T16:53:10Z" duration-ms="8258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestReport -->
+      </class> <!-- com.demoQA.pages.ExtentReportdemo -->
+      <class name="com.demoQA.pages.ElementsPageTest">
+        <test-method signature="fillText()[pri:0, instance:com.demoQA.pages.ElementsPageTest@6e535154]" started-at="2021-03-25T16:53:01Z" name="fillText" finished-at="2021-03-25T16:53:02Z" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillText -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demoQA.pages.ElementsPageTest@6e535154]" started-at="2021-03-25T16:53:02Z" name="teardownMethod" finished-at="2021-03-25T16:53:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillText status=SUCCESS method=ElementsPageTest.fillText()[pri:0, instance:com.demoQA.pages.ElementsPageTest@6e535154] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+      </class> <!-- com.demoQA.pages.ElementsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

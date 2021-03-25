@@ -87,6 +87,7 @@ public class ElementsPage extends BaseClass {
 		permaddrinput.sendKeys(permAddr);
 		submitButton.click();
 		refreshPage();
+		
 	}
 	
 	

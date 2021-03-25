@@ -58,8 +58,8 @@ public class HomePageTest extends BaseClass{
 	}
 	
 	@AfterTest
-	public void teardown() {
-		driver.quit();
+	public void endTest() {
+		teardown();
 	}
 
 }

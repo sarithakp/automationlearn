@@ -54,6 +54,7 @@ public class ElementsPageTest extends BaseClass {
 					}
 					System.out.println("The data entered--: "+fname+ "  "+email +"  "+addr+" "+permaddr);
 					//Helper.captureScreenShot(driver);
+					
 		}
 		
 

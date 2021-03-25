@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="SuitedemoQA">
-  <test thread-count="5" name="TestSprint1">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="com.demoQA.pages.HomePageTest"/>
       <class name="com.demoQA.pages.ElementsCheckBoxTest"/>
+      <class name="com.demoQA.pages.ElementsWebTableTest"/>
       <class name="com.demoQA.pages.ElementsPageTest"/>
+      <class name="com.demoQA.pages.ExtentReportdemo"/>
     </classes>
-  </test> <!-- TestSprint1 -->
-</suite> <!-- SuitedemoQA -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

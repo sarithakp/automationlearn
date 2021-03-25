@@ -38,8 +38,8 @@ public class ElementsCheckBoxTest extends BaseClass{
 	}
 	
 	@AfterTest
-	public void teardown() {
-		driver.quit();
+	public void endtest() {
+		teardown();
 	}
 
 }

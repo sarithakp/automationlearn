@@ -32,6 +32,12 @@ public class ConfigReader {
 		return pro.getProperty("Chromepath");
 	}
 	
+	public String getFirefoxPath() {
+		return pro.getProperty("ForefoxPath");
+	}
+	public String getBrowser() {
+		return pro.getProperty("Browser");
+	}
 	public String getUrl() {
 		return pro.getProperty("URL");
 	}

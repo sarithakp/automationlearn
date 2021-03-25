@@ -1,4 +1,6 @@
+Browser=chrome
 Chromepath=C:\\test-automation\\drivers\\chromedriver.exe
+ForefoxPath=C:\\test-automation\\drivers\\geckodriver.exe
 
 IEpath=
 URL=https://demoqa.com
