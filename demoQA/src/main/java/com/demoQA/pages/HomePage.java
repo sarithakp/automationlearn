@@ -7,8 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 //test
 public class HomePage extends BaseClass {
 	
-	@FindBy(xpath="//h5[text()='Elements']")
+	//@FindBy(xpath="//h5[text()='Elements']")
 	//@FindBy(xpath="//div[@class='card-body'][1]")
+	@FindBy(xpath="//div[@class='card mt-4 top-card'][1]")
 	WebElement elementsCard;
 	
 	@FindBy(xpath="//h5[text()='Forms']")
